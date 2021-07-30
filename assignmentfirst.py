@@ -1,5 +1,29 @@
 '''Let's Upgrade Assignment 1st'''
 '''Submitted by Anurag Garg'''
+
+#OTP GENERATOR USING PYTHON
+
+import string
+import random as r
+length=6
+otp=''
+a = string.ascii_letters + string.digits
+print(a)
+for i in range(length):
+  otp=otp+r.choice(a)
+print("OTP: ",otp)
+import string
+import random as r
+length=6
+otp=''
+a = string.ascii_letters + string.digits
+print(a)
+for i in range(length):
+  otp=otp+r.choice(a)
+print("OTP: ",otp)
+
+#QUESTION 2
+
 #Starting And Accepting User Input's
 list = []
 x = int(input("Enter number of elements : ")) #Required Elements
